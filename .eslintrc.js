@@ -46,6 +46,13 @@ module.exports = {
   settings: {
     'import/resolver': {
       typescript: {},
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+    react: {
+      version: 'detect',
     },
   },
 }

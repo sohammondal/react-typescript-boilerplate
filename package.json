@@ -22,7 +22,7 @@
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "prepare": "husky install",
-    "commit": "git-cz"
+    "cm": "git-cz"
   },
   "eslintConfig": {
     "extends": [
